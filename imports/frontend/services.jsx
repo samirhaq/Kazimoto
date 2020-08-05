@@ -6,8 +6,8 @@ export class Services extends Component {
         <div id="services" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>Our Services</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+            <h2>Our Products</h2>
+            <p>Here at Kazimoto we offer the best detailing products available.</p>
           </div>
           <div className="row">
 

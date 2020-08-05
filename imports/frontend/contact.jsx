@@ -44,7 +44,6 @@ export class Contact extends Component {
     <div className="col-md-3 col-md-offset-1 contact-info">
       <div className="contact-item">
         <h3>Contact Info</h3>
-        <p><span><i className="fa fa-map-marker"></i> Address</span>{this.props.data ? this.props.data.address : 'loading'}</p>
       </div>
       <div className="contact-item">
         <p><span><i className="fa fa-phone"></i> Phone</span> {this.props.data ? this.props.data.phone : 'loading'}</p>
@@ -68,7 +67,7 @@ export class Contact extends Component {
 </div>
 <div id="footer">
   <div className="container text-center">
-    <p>&copy; 2018 Issaaf Kattan React Land Page Template. Design by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+    <p>&copy; 2020 Kazimoto Clean Car Products Inc. Design by <a href="http://www.samirhaq.com" rel="nofollow">Samir Haq</a></p>
   </div>
 </div>  
       </div>
