@@ -63,7 +63,9 @@ export class Contact extends Component {
             <p className="help-block text-danger"></p>
           </div>
           <div id="success"></div>
+          {!this.state.showMessage &&
           <button className="btn btn-custom btn-lg" onClick={this.submitMessage}>Send Message</button>
+          }
         </form>
         {this.state.showMessage && !this.state.error &&
         <Message
@@ -89,17 +91,6 @@ export class Contact extends Component {
       </div>
       <div className="contact-item">
         <p><span><i className="fa fa-envelope-o"></i> Email</span> {this.props.data ? this.props.data.email : 'loading'}</p>
-      </div>
-    </div>
-    <div className="col-md-12">
-      <div className="row">
-        <div className="social">
-          <ul>
-            <li><a href={this.props.data ? this.props.data.facebook : '/'}><i className="fa fa-facebook"></i></a></li>
-            <li><a href={this.props.data ? this.props.data.twitter : '/'}><i className="fa fa-twitter"></i></a></li>
-            <li><a href={this.props.data ? this.props.data.youtube : '/'}><i className="fa fa-youtube"></i></a></li>
-          </ul>
-        </div>
       </div>
     </div>
   </div>
