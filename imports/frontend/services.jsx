@@ -10,15 +10,19 @@ export class Services extends Component {
             <p>Here at Kazimoto we offer the best detailing products available.</p>
           </div>
           <div className="row">
+            <div className="container">
+              <p>More information on our products will be coming soon...</p>
+              <img src="img/kazimoto.png" className="img-responsive" alt=""/>
+            </div>
 
-          {this.props.data ? this.props.data.map(d => 
+          {/* {this.props.data ? this.props.data.map(d => 
               <div className="col-md-4"> <i className={d.icon}></i>
               <div className="service-desc">
                 <h3>{d.name}</h3>
                 <p>{d.text}</p>
               </div>
             </div>
-          ): 'loading'}
+          ): 'loading'} */}
           
            
           

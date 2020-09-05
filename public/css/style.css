@@ -305,19 +305,19 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: #1a1a1a;
-	color: #fff;
+	background: #fff;
+	color: #1a1a1a;
 }
 #services .service-desc {
 	margin: 10px 10px 20px;
 }
 #services h2 {
-	color: #fff;
+	color: #cc0000;
 }
 #services .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: rgba(255,255,255,.3);
+	background: linear-gradient(to right, #ff8c1a 0%, #ffcc80 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -340,7 +340,7 @@ header .intro-text {
 	color: #fff;
 }
 #services p {
-	color: rgba(255,255,255,.75);
+	color: #1a1a1a;
 }
 #services .service-desc {
 	margin-bottom: 40px;
